@@ -186,11 +186,7 @@
   }
   
   body {
-    background-image: url('../images/pexels-ljupco-dzambazovski-581180-1346132.jpg');
-    background-repeat: no-repeat;
-    background-position: initial;
-    background-size: cover;
-    width: 100%;
+    background-color: black;
     font-family: 'Calligraffitti';
     font-size: auto;
     color: #fffffffc;
