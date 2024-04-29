@@ -186,6 +186,7 @@
   }
   
   body {
+    border-color: white;
     background-color: black;
     font-family: 'Calligraffitti';
     font-size: auto;
