@@ -152,10 +152,6 @@
       display: block;
       text-align: left;
     }
-  
-    body {
-      background-size: contain;
-    }
   }
   
   img {
@@ -186,6 +182,7 @@
   }
   
   body {
+    background-size: contain;
     background-color: black;
     font-family: 'Calligraffitti';
     font-size: auto;
