@@ -160,7 +160,7 @@
     }
     .topnav.responsive a {
       float: none;
-      display: list-item;
+      display: inline;
       text-align: left;
     }
   }
