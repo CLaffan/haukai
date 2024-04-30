@@ -159,8 +159,8 @@
       top: 0;
     }
     .topnav.responsive a {
-      float: none;
-      display: inline;
+      float: left;
+      display: block;
       text-align: left;
     }
   }
