@@ -108,7 +108,7 @@
     color: (255, 254, 254, 0) /* Green background with 0% opacity */;
   }
 
-  .topnav.img {
+  .topnav .img {
     alt: "the haukai restaurant logo";
     width: 200px;
     height: 125px;
