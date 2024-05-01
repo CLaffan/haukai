@@ -180,8 +180,9 @@
     font-weight: bolder;
   }
 
-  hr{
+  .vl {
     color: #cc5500;
+    border-right: solid;
   }
   
   
