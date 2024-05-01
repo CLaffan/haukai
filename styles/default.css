@@ -100,7 +100,7 @@
   
   .topnav a:hover {
     background-color: (255, 254, 254, 0) /* Green background with 0% opacity */;
-    color: red;
+    color: #cc5500;
   }
   
   .topnav a.active {
