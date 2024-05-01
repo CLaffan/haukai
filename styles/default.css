@@ -85,13 +85,13 @@
 
   .topnav {
     overflow: hidden;
-    background-color: #333;
+    background: (255, 254, 254, 0) /* background with 0% opacity */;
   }
   
   .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -99,13 +99,13 @@
   }
   
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: (255, 254, 254, 0) /* Green background with 0% opacity */;
+    color: red;
   }
   
   .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
+    background-color: (255, 254, 254, 0) /* Green background with 0% opacity */;
+    color: (255, 254, 254, 0) /* Green background with 0% opacity */;
   }
   
   .topnav .icon {
@@ -118,6 +118,12 @@
       float: right;
       display: block;
     }
+
+    /* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(255, 254, 254, 0) /* background with 0% opacity */;;
+  color: red;
+}
   }
   
   @media screen and (max-width: 600px) {
