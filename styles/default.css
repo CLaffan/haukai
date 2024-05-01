@@ -118,12 +118,6 @@
       float: right;
       display: block;
     }
-
-    /* Change the color of links on hover */
-.topnav a:hover {
-  background-color: rgb(255, 254, 254, 0) /* background with 0% opacity */;;
-  color: red;
-}
   }
   
   @media screen and (max-width: 600px) {
