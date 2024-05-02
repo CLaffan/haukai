@@ -17,13 +17,6 @@
   grid-area: footer; 
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -109,12 +102,6 @@
       display: block;
       text-align: left;
     }
-  }
-
-   
-  img {
-    object-fit: cover;
-    height: 100%;
   }
   
   .button {
