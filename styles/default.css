@@ -2,7 +2,13 @@
   grid-area: header; 
 }
 .sidebar { 
-  grid-area: sidebar; 
+  grid-area: sidebar;
+  img {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+    float: left;
+  } 
 }
 .main { 
   grid-area: main; 
