@@ -7,7 +7,7 @@
     width: 150px;
     height: 100px;
     object-fit: contain;
-    float: left;
+    float: none;
   } 
 }
 .main { 
@@ -15,6 +15,13 @@
 }
 .footer { 
   grid-area: footer; 
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .grid-container {
