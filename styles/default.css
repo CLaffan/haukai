@@ -9,9 +9,8 @@
 .sidebar { 
   grid-area: sidebar;
   img {
-    width: 150px;
-    height: 100px;
-    object-fit: contain;
+    width: 225px;
+    height: 150px;
   } 
   align-content: center;
 }
