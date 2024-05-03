@@ -2,8 +2,8 @@
   grid-area: header; 
   img {
     width: 400px;
-    height: 50px
-    object-fit:contain;
+    height: 50px;
+    object-fit: contain;
   }
 }
 .sidebar { 
@@ -15,27 +15,17 @@
   } 
   align-content: center;
 }
-.main { 
-  grid-area: main; 
-}
-.footer-left { 
-  grid-area: footer-left; 
-}
-
-.footer-mid {
-  grid-area: footer-mid;
-}
-
-.footer-right {
-  grid-area: footer-right;
-}
+.main {  grid-area: main; }
+.footer-left { grid-area: footer-left; }
+.footer-mid {grid-area: footer-mid;}
+.footer-right {grid-area: footer-right;}
 
 .grid-container {
   display: grid;
   grid-template-areas:
     'header header header header header header'
     'sidebar sidebar main main main main'
-    'footer footer footer footer footer footer';
+    'footer-left footer-left footer-mid footer-mid footer-right footer-right';
   gap: 10px;
   background-color: black;
   padding: 10px;
