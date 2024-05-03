@@ -1,8 +1,8 @@
 .header { 
   grid-area: header; 
   img {
-    width: 400px;
-    height: 50px;
+    width: 225px;
+    height: 150px;
     object-fit: contain;
   }
 }
