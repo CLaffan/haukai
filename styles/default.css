@@ -18,8 +18,16 @@
 .main { 
   grid-area: main; 
 }
-.footer { 
-  grid-area: footer; 
+.footer-left { 
+  grid-area: footer-left; 
+}
+
+.footer-mid {
+  grid-area: footer-mid;
+}
+
+.footer-right {
+  grid-area: footer-right;
 }
 
 .grid-container {
