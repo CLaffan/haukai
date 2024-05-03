@@ -16,8 +16,15 @@
   align-content: center;
 }
 .main {  grid-area: main; }
-.footer-left { grid-area: footer-left; }
-.footer-mid {grid-area: footer-mid;}
+.footer-left { 
+  grid-area: footer-left;
+  
+  align-content: left;
+}
+.footer-mid {
+  grid-area: footer-mid;
+  align-content: center; 
+}
 .footer-right {grid-area: footer-right;}
 
 .grid-container {
