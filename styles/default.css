@@ -52,7 +52,9 @@
     "header"
     "sidebar"
     "main"
-    "footer";
+    "footer-mid"
+    "footer-left"
+    "footer-right";
     width: 100%;
   }
 }
